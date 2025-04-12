@@ -1,0 +1,3 @@
+#!/bin/bash
+name=$(zenity --entry --title="User Input" --text="Enter your name:")
+zenity --info --text="Hello, $name!"  
